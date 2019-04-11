@@ -1,0 +1,198 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	background-color: #ddd;
+
+}
+#contenedor{
+    width: 950px;
+    margin: auto;
+
+}
+main{
+	width: 950px;
+	height: 160px;
+	background: rgb(161,219,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(161,219,255,1) 23%, rgba(161,219,255,1) 25%, rgba(240,249,255,1) 86%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(161,219,255,1) 23%,rgba(161,219,255,1) 25%,rgba(240,249,255,1) 86%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(161,219,255,1) 23%,rgba(161,219,255,1) 25%,rgba(240,249,255,1) 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
+}
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+  /* Ojo vertical-align: text-middle no existe*/
+}
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+ body{
+margin: 0;
+padding: 0;
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+ }
+
+nav{
+width: 100%;
+height: 35px;
+}
+
+#menu{
+width: 100%;
+height: 35px;
+background:#03A9F4;
+float: left;
+position: relative;
+
+} 
+
+#menu .menup{
+width: 960px;
+height: 35px;
+margin: 0 auto;
+padding: 0px;
+}
+
+#menu li{
+float:left;
+position:relative;
+padding: 6px 0;
+margin: 0;
+list-style: none;
+} 
+
+#menu li a{
+color:#FBFCFC;
+font-size:12px;
+padding: 25px 45px;
+/* text-shadow: 0px -1px 0px #000; */
+text-decoration: none;
+text-transform: uppercase;
+} 
+
+/*ocultamos el dropdown*/    
+#menu li > ul{
+display:none;
+position:absolute;
+background:#03A9F4;
+padding: 0 ;
+z-index: 2;
+}
+
+#menu li > ul li{
+padding:0;
+margin:1px 0;
+list-style: none;
+} 
+
+#menu li > ul li:first-child, #menu li:hover > ul li:last-child{
+padding:0;
+margin:0 0;
+}
+
+/*le damos el color blanco al enlance del submenu y el background negro */    
+#menu li:hover > a{
+color:#03A9F4;
+background-color: #424242;
+width: 120px; 
+} 
+
+#menu li > ul li a{
+width: 150px;
+margin: 0 0 0 5px;
+display:block;
+color: #fff;
+} 
+
+/* Con esto mantenemos el codigo submenu activo */
+#menu li:hover > ul{
+display:block;
+width: 150px;
+top: 35px;
+ }
+
+#menu .divider{
+border-right: 1px solid #BCBCBC;
+height: 23px;
+}
+#menu .dropdown::after{
+content:"";
+position: absolute;
+top: 15px;
+left: 52px;
+width:0px;
+height:0px;
+border-style: solid;
+border-width: 4.3px;
+border-bottom-width:0px;
+border-color: #BCBCBC transparent transparent transparent;
+}
+
+#menu li:hover::after{
+border-color: #fff transparent transparent transparent;
+}
+
+hr{
+margin: 0;
+padding: 0;
+width: 80%;
+position: relative;
+border-color: rgba(189, 189, 189, 0.6);
+left: 10px;
+}
+
+#menu .dropdown span{
+height: 15px;
+width: 3px;
+position: absolute;
+top: 6px;
+left: 5px;
+}
+section{
+	float: left;
+	width: 750px;
+	height: 450px;
+	margin-top: 5px;
+	background-color: white;
+}
+aside{
+	float: left;
+	width: 195px;
+	height: 350px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: white;
+} 
+aside:nth-of-type(2){
+	height: 50px;
+	float: left;
+	width: 195px;
+	height: 87px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+footer{
+	clear: both;
+	width: 950px;
+	height: 90px;
+	background: rgb(161,219,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(161,219,255,1) 23%, rgba(161,219,255,1) 25%, rgba(240,249,255,1) 86%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(161,219,255,1) 23%,rgba(161,219,255,1) 25%,rgba(240,249,255,1) 86%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(161,219,255,1) 23%,rgba(161,219,255,1) 25%,rgba(240,249,255,1) 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
+	color: black;
+	text-align: center;
+
+}
+<style type="text/css">
+		#imagen {
+			width:500px;
+			height:375px;
+			position:cen;
+		}
+		#texto{
+  display: inline-block;
+  vertical-align: top;
+  }
